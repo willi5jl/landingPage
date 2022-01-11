@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><landing page></title>
+    <title>landing page</title>
         <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,14 +12,45 @@
        
         <center><img class= "logo"
         src="./logowhite.png" alt="logo"></center>
-    </Header>
+   
 
-    <nav>
+   
+        <nav>
         <ul>
-           <li>Facials</li> 
-           <li>Waxing</li> 
-           <li>Lashes</li> 
+           <li><a href="#facials-page">Facials</a></li> 
+           <li><a href="#waxing-page">Waxing</a></li> 
+           <li><a href="#lashes-page">Lashes</a></li>
+           
         </ul>
     </nav>
+
+    
+<div class="Email-List">
+        <form class="sign-up-form" action="https://www.freecodecamp.com/email-submit">
+            <h1>Free Facial Drawing</h1>
+            <label>Email Address
+                <input type="email"/>
+            </label>
+        <div>
+            <input type="submit">Enter</input>
+        </div>
+        </form>
+    </div>
+
+    <div class="youtube-video">
+        <div>
+            
+            <h1>How to Properly Care for Your Lash Extensions</h1>
+            <div class="text-center">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GgbSBxq9I_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    </div>
+</div>
+
+<div class="facials" id="facials-page"></div>
+<div class="waxing" id="waxing-page"></div>
+<div class="lashes" id="lashes-page"></div>
+</Header>
 </body>
 </html>

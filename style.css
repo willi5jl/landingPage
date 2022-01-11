@@ -4,15 +4,62 @@
 .header{
     max-width:100%;
     display:flex;
+    align-item:center;
+    position:fixed;
+    
     
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+   
 }
 
 nav{
     width:100%;
+    position: fixed;
+}
+
+.Email-List {
+    height:600px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+    
+}
+
+.sign-up-form{
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.youtube-video{
+    height:400px;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    margin: auto;
+   justify-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.facials{
+    height:600px;
+    background-image:url(https://www.esanamedspa.com/wp-content/uploads/2019/05/facials.jpg;)
+}
+
+.waxing{
+    height:900px;
+    background-image:url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/waxing-1619197962.png;)
+}
+
+.lashes{
+    height:600px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBCoogFS7nDMySdRDf_TZeJKOsM057D_5uxQ&usqp=CAU;)
 }
