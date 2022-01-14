@@ -12,20 +12,20 @@
     <header id="header">
        
         <div id="logo">
-        <img class= "logo"
+        <img class= "logo" id="header-img"
         src="./logowhite.png" alt="logo">
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mx-auto">
+        <nav class="navbar navbar-expand-lg navbar-light bg-pink mx-auto">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"><i class="fas fa-bars hamburger"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav mx-auto">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <a class="nav-link active" href="#facials">facials </a>
-                <a class="nav-link" href="#waxing">waxing</a>
-                <a class="nav-link" href="#lashes">lashes</a>
+                <a class="navbar-brand nav-link text-white" href="#">Home</a>
+                <a class="nav-link active" href="#facials">Facials </a>
+                <a class="nav-link" href="#waxing">Waxing</a>
+                <a class="nav-link" href="#lashes">Lashes</a>
               </div>
             </div>
           </nav>
@@ -55,14 +55,14 @@
 </header>
 
     
-<div class="signupfrm" class="img-fluid">
+<div class="signupfrm" id="form" class="img-fluid">
         <div class="text-center"><form class="sign-up-form" action="https://www.freecodecamp.com/email-submit">
             <h1>Free Facial Drawing</h1>
             <label>Email Address
-                <input type="email" id='emailLine'/>
+                <input type="email" id='email'/>
             </label>
         <div id='sub'>
-            <input type="submit" id='subLine'/>
+            <input type="submit" id='submit'/>
                 
         </div>
     </div>
@@ -70,7 +70,7 @@
     </div>
 
     
-    <div class="youtube-video">
+    <div class="youtube-video" id="video">
         <div>
             
             <div class="video-title"><h2>How to Properly Care for Your Lash Extensions</h2></div>

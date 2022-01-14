@@ -4,6 +4,12 @@
         /* float: none; */
         /* display: flex;
         flex-direction: column; */
+        .nav-link{
+            color:white !important
+        }
+        .nav-link:hover{
+            color:yellowgreen !important
+        }
 
 @media(min-width:576px){
     .container-fluid{
@@ -14,6 +20,7 @@ align-items: flex-start;
     width: 500px;
     
 }
+
 .header{
     max-width:100%;
     display:flex;
@@ -35,7 +42,6 @@ ul {
 }
 
 nav {
-    width:100%;
     background:rgb(247, 104, 187)
 }
 
@@ -115,10 +121,8 @@ color:rgb(247, 104, 187);
 margin-top:50px;
 }
 
-a {
-    color: white;
-}
 
 a:hover {
     color: greenyellow
+}
 }
