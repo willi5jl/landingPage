@@ -1,13 +1,30 @@
+/* @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .nav{
+        /* width: 100%; */
+        /* float: none; */
+        /* display: flex;
+        flex-direction: column; */
+
+@media(min-width:576px){
+    .container-fluid{
+align-items: flex-start;
+}
+
 .logo{
     width: 500px;
+    
 }
 .header{
     max-width:100%;
     display:flex;
-    align-item:center;
+    box-align:center;
     position:fixed;
     
-    
+}
+
+
+#logo{
+    text-align:center;
 }
 
 ul {
@@ -17,49 +34,91 @@ ul {
    
 }
 
-nav{
+nav {
     width:100%;
-    position: fixed;
+    background:rgb(247, 104, 187)
 }
 
-.Email-List {
-    height:600px;
+.signupfrm {
     display: flex;
     justify-content:center;
     align-items:center;
+    margin: auto;
+    height: 200px;
+    background-color: rgb(247, 104, 187);
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgb(247, 78, 78);
+    margin-top:20px;
+  }
 
+  
     
-}
-
-.sign-up-form{
-    text-align:center;
-    margin-bottom: 20px;
-}
-
 .youtube-video{
-    height:400px;
+    
     display:flex;
     justify-content:center;
     align-content:center;
     margin: auto;
    justify-items: center;
+   margin-top:20px;
 }
 
 .text-center{
     text-align: center;
 }
 
-.facials{
-    height:600px;
-    background-image:url(https://www.esanamedspa.com/wp-content/uploads/2019/05/facials.jpg;)
+#facials{
+    text-align: center;
+margin-top:50px;
 }
 
-.waxing{
-    height:900px;
-    background-image:url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/waxing-1619197962.png;)
+#waxing{
+   text-align:center;
+   margin-top: 20px;
 }
 
-.lashes{
-    height:600px;
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBCoogFS7nDMySdRDf_TZeJKOsM057D_5uxQ&usqp=CAU;)
+#lashes{
+    text-align:center;
+    margin-top: 20px;
+}
+
+h1{
+    text-align:center;
+    color:white;
+}
+
+input[type="submit"] {
+    text-align:center;
+    color:rgb(165, 24, 123);
+    margin: auto;
+    font-weight: bold;
+}
+label{
+    color : white;
+}
+#sub{
+    margin:auto;
+    
+}
+#subLine{
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+#emailLine{
+    border: 10px solid white;
+}
+.video-title{
+color:rgb(247, 104, 187);
+margin-top:50px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: greenyellow
 }

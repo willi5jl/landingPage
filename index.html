@@ -1,56 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>landing page</title>
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+        
 </head>
 <body>
-    <Header>
+    <header id="header">
        
-        <center><img class= "logo"
-        src="./logowhite.png" alt="logo"></center>
-   
+        <div id="logo">
+        <img class= "logo"
+        src="./logowhite.png" alt="logo">
+        </div>
 
-   
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mx-auto">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav mx-auto">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="nav-link active" href="#facials">facials </a>
+                <a class="nav-link" href="#waxing">waxing</a>
+                <a class="nav-link" href="#lashes">lashes</a>
+              </div>
+            </div>
+          </nav>
+<!-- 
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">The Palace Aesthetics</a>
+              </div>
+              <ul class="nav navbar-na">
+                <li class="active"><a href="#facials">Facials</a></li>
+                <li><a href="#waxing">Waxing</a></li>
+                <li><a href="#lashes">Lashes</a></li>                
+                </ul>
+            </div>
+          </nav> -->
+
+<!--    
         <nav>
         <ul>
-           <li><a href="#facials-page">Facials</a></li> 
-           <li><a href="#waxing-page">Waxing</a></li> 
-           <li><a href="#lashes-page">Lashes</a></li>
+           <li><a href="#facials">Facials</a></li> 
+           <li><a href="#waxing">Waxing</a></li> 
+           <li><a href="#lashes">Lashes</a></li>
            
         </ul>
-    </nav>
+    </nav> -->
+</header>
 
     
-<div class="Email-List">
-        <form class="sign-up-form" action="https://www.freecodecamp.com/email-submit">
+<div class="signupfrm" class="img-fluid">
+        <div class="text-center"><form class="sign-up-form" action="https://www.freecodecamp.com/email-submit">
             <h1>Free Facial Drawing</h1>
             <label>Email Address
-                <input type="email"/>
+                <input type="email" id='emailLine'/>
             </label>
-        <div>
-            <input type="submit">Enter</input>
+        <div id='sub'>
+            <input type="submit" id='subLine'/>
+                
         </div>
+    </div>
         </form>
     </div>
 
+    
     <div class="youtube-video">
         <div>
             
-            <h1>How to Properly Care for Your Lash Extensions</h1>
+            <div class="video-title"><h2>How to Properly Care for Your Lash Extensions</h2></div>
             <div class="text-center">
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/GgbSBxq9I_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GgbSBxq9I_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="img-fluid"></iframe>
             </div>
     </div>
 </div>
 
-<div class="facials" id="facials-page"></div>
-<div class="waxing" id="waxing-page"></div>
-<div class="lashes" id="lashes-page"></div>
-</Header>
-</body>
+<div id="facials">
+    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFjaWFsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="person getting facial" class="img-fluid">
+</div>
+<div id="waxing">
+    <img src="https://images.unsplash.com/photo-1594051843850-2caa9704b28d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2F4aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="waxing" class="img-fluid">
+</div>
+<div id="lashes">
+    <img src="https://images.unsplash.com/photo-1589710751893-f9a6770ad71b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFzaCUyMGV4dGVuc2lvbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="lash extensions" class="img-fluid">
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
